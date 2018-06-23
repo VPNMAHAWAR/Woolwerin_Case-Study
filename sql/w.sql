@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXIST w;
+CREATE TABLE teams(
+	team1 VARCHAR(500) NOT NULL,
+	team2 VARCHAR(500) NOT NULL
+);
+INSERT INTO  teams VALUES ("Team 1 Members", "Team 2 Members");
